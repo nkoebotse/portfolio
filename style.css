@@ -1,0 +1,94 @@
+*{
+padding:0;
+margin: 0;
+box-sizing:border-box;
+
+}
+
+body{
+    background-color:whitesmoke;
+    font-family: "Jost", sans-serif;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+
+}
+.logo{
+    padding: 1.5rem;
+}
+
+.logo h2{
+    color: #0f0f0f;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+
+}
+
+li{
+    padding: 2rem;
+}
+
+li a{
+    text-decoration: none;
+}
+
+.social-icons{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-img{
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+}
+
+.hero-content{
+    line-height: 4rem;
+    font-size: 2rem;
+}
+
+.btn{
+    width: 150px;
+    height: 40px;
+    background-color: orange;
+    color:snow;
+    border: none;
+
+}
+
+.tech-stack
+{
+    text-align: center;
+}
+
+.tech-stack-icons{
+    font-size: 4rem;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,auto)) ;
+    align-items: center;
+    justify-content: center;
+    gap:1.7rem ;
+    margin-top: 3rem;
+}
+
+.card{
+    width: 20rem;
+    height: 24rem;
+    background-color: snow;
+    
+}
